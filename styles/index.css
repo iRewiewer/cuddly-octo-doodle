@@ -1,0 +1,77 @@
+body {
+    background-color: #b897e9;
+}
+
+@font-face {
+    font-family: 'Handwritten';
+    src: url('fonts/handwritten.ttf') format('truetype');
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#octi {
+    color: #a376e8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+#octopus_img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.spin {
+    animation: spin 1s infinite forwards;
+}
+
+.pause {
+    animation-play-state: paused;
+}
+
+#octopus_img_div {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    font-family: 'Handwritten', Arial, sans-serif;
+    font-size: 72px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.button-container button {
+    margin: 0 40px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    height: 75px;
+    width: 100px;
+    border: none;
+    background-color: #8f58e2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Handwritten', Arial, sans-serif;
+    font-size: 48px;
+}
+
+.button-container button:hover {
+    background-color: #7b47cb;
+}

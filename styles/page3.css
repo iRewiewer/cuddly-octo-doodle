@@ -1,0 +1,14 @@
+button {
+    height: 100px !important;
+    width: 200px !important;
+}
+
+.hidden-buttons {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.button-container {
+    margin-left: 30px;
+}

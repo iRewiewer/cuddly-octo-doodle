@@ -1,0 +1,11 @@
+#yes:hover {
+    background-color: #68e68c;
+}
+
+#no:hover {
+    background-color: #ff2b2b;
+}
+
+#no.run-away {
+    transition: transform 0.5s ease-in-out;
+}

@@ -1,0 +1,10 @@
+body {
+    background-image: url('../images/adventure.png');
+    background-size: 100% 105vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#octi {
+    color: white;
+}
